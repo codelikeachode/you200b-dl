@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Error handling for incorrect URL format: To ensure the program can handle incorrect URL format and provide a clear error message to the user, the input URL format was validated using regular expressions.
 
+I wanted to add error handling for the input URL format for several reasons:
+
+- User Experience: Without proper validation of the URL format, the program may fail or produce unexpected results if the user provides an incorrect URL. By adding error handling for the URL format, the program can inform the user about the issue and ask for a valid URL, which will improve the overall user experience.
+- Debugging: By validating the URL format, it is easier to identify and debug any issues that might occur. This is because a well-defined error message can be provided to the user, which will help in diagnosing the problem and fixing it.
+- Security: Incorrectly formatted URLs can pose a security risk to the program. For example, a malicious user could provide an URL that contains a script that can compromise the security of the program or the system it is running on. By validating the URL format, the program can reduce the risk of such attacks.
+
+In conclusion, adding error handling for the input URL format is important for improving the user experience, facilitating debugging, and enhancing the security of the program.
+
 
 ## [Unreleased]
 
